@@ -105,9 +105,6 @@ def playGame(start):
             else:
                 self.hitbox = (self.x, self.y, self.width, self.height)
 
-            # if not self.isDying:
-            #    pygame.draw.rect(window, (255, 0, 0), self.hitbox, 2)
-
         def hit(self):
             self.isDying = True
 
